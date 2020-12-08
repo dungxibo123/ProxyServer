@@ -79,21 +79,21 @@ Còn muốn thử đa luồng khác thì dùng 2 đoạn code sau nha
 ```python
 import _thread #thread cho python2
 import time
-#code không dùng thread
+#code không dùng thread 
+#Đống này thì in tuần tự rồi ha
 for i in range(10):
     print(i)
-    time.sleep(3)
-#Đoạn code trên kết thúc ~30s
 # code dùng thread
 def Print(x):
     print(x)
-    time.sleep(3)
 for i in range(10):
-    # Ngắn gọn thì vậy_thread.start_new_thread(lambda x: print(x); time.sl,(i))
+    # Ngắn gọn thì vậy_thread.start_new_thread(lambda x: print(x),(i))
     # Dài hơn tí thì vậy
     _thread.start_new_thread(Print,(i))
     
-#Đoạn code này chắc cỡ 3s
+time.sleep(0.1) #chờ nó in ra in ra
+#Đoạn code này sẽ in tùm lum số, chạy mỗi lần in mỗi kiểu
+#Quào sau khi chạy đống này locally	thì mình mới hiểu thêm về Multithreading
 ```
 Hy vọng nó chạy được :v mình code trực tiếp trên markdown, chưa debug =))))))))))))
 
