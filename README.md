@@ -3,6 +3,7 @@
 Lời đầu tiên thì chào mừng các bạn đến với cái đồ án này.
 
 Đây là đồ án Proxy Server mình nhân được khi học tại Đại học Khoa học Tự nhiên môn Mạng máy tính
+
 Một phần do mình tìm hoài mà chả thấy repo nào code bằng Python mà có mô tả và comment rõ ràng, thứ 2 là do mình là người chơi hệ Python nên giờ các bạn có các Repo ở đây.
 
 ---
@@ -115,6 +116,7 @@ Well, đó là tất cả những gì mà tụi mình biết.
 Trong quá trình nghiên cứu, tìm hiểu, tụi mình chân thành cảm ơn anh Võ Quốc An và 2 người bạn đã giúp tụi mình trong việc nhận ra sai lầm khi chạy thử. Cũng chân thành cảm ơn giảng viên bộ môn của tụi mình đã hỗ trợ trong nhiều khía cạnh.
 
 Chúc các bạn may mắn
+
 ***FIT 25 năm - HCMUS***
 
 
