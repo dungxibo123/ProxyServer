@@ -87,11 +87,12 @@ for i in range(10):
 # code dùng thread
 def Print(x):
     print(x)
+    time.sleep(3)
 for i in range(10):
-    # Ngắn gọn thì vậy_thread.start_new_thread(lambda x: print(x),(i))
+    # Ngắn gọn thì vậy_thread.start_new_thread(lambda x: print(x); time.sl,(i))
     # Dài hơn tí thì vậy
     _thread.start_new_thread(Print,(i))
-    time.sleep(3)
+    
 #Đoạn code này chắc cỡ 3s
 ```
 Hy vọng nó chạy được :v mình code trực tiếp trên markdown, chưa debug =))))))))))))
